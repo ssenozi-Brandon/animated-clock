@@ -13,8 +13,8 @@ function clock(){
     // setup canvas
 
     ctx.save();// save the default state
-    ctx.clearRect(0,0,500,500);
-    ctx.translate(250,250);// put the clock in the middle
+    ctx.clearRect(0,0,400,400);
+    ctx.translate(200,200);// put the clock in the middle
     ctx.rotate(-Math.PI/2) // rotate clock
 
     // set default styles
